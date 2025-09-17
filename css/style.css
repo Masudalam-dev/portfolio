@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #1B4965;
+    font-size: 1.2rem; 
+}
+.logo{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+    font-family: 'Roboto';
+
+    
+}
+
+.nav-bar {
+    height: 100%;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: 'Roboto';
+    gap: 15%;
+}
+.masud-image-header {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-right: 8%;
+    border-radius: 50%;
+    background-image: url(../img/ncc-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
