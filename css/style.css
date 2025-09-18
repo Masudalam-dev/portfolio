@@ -47,3 +47,33 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.hero {
+    height: 100vh;
+    background-color: #cae9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+.title {
+    font-family: 'Poppins';
+}
+.skill {
+    width: 60%;
+    padding: 20px;
+    font-family: 'Roboto';
+}
+.explain-trip {
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+.manali-photo {
+    height: 250px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 15px;
+}
