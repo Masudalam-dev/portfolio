@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<style>
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        font-family: monospace;
+        background-color: #B0D9F4;
+    }
+    h1 {
+        text-align: center;
+    }
+    address {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #5FA8D3;
+    }
+    .location-information {
+        flex: 1;
+        padding: 15px;
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        line-height: 1.5;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 0px;
+        gap: 0px 5px;
+        width: fit-content;
+    }
+    .location-image {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 1.5;
+        padding: 15px;
+        background-color: #62B6CB;
+        
+        
+    }
+    img {
+        max-height: 250px;
+        border-radius: 10px;
+    }
+    .link {
+        width: 80%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: #62B6CB;
+        
+    }
+    .link-child {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+</style>
+<body>
+    <h1>Personal Information</h1>
+    <address>
+        <div class="location-information">
+            <h2>Name: Masud Alam</h2>
+            <h2>Location: </h2>
+            <ul>
+                <ul>
+                    <li>City:</li><li>Rajmahal</li>
+                    <li>Dist:</li><li>Sahibganj</li>
+                    <li>State:</li><li>Jharkhand</li>
+                    <li>Country:</li><li>India</li>
+                    <li>Pin Code:</li><li>816108</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="location-image">
+            <h2>Click on the image👇</h2>
+            <a href="https://www.google.com/maps/@25.0536768,87.8304474,16z?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank"> 
+                <img src="./img/Rajmahal.png" alt="Rajmahal Location image">
+            </a>
+        </div>
+        
+    </address>
+    <div class="link">
+        <div class="link-child">
+            <a href="mailto:masud.alam.it2003@gmail.com">masud.alam.it2003@gmail.com</a>
+            <br>
+            <a href="https://www.linkedin.com/in/masudalam-dev/">LinkedIn</a>
+        </div>
+    </div>
+    
+</body>
+</html>
